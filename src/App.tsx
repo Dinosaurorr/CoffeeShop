@@ -50,37 +50,37 @@ const faqs = [
 const menuData: Record<'drinks' | 'meals', Record<string, { name: string; price: string; desc: string; image?: string }[]>> = {
   drinks: {
     "Hot Coffee": [
-      { name: "Espresso", price: "$3.50", desc: "Double shot of Your Coffee", image: "Images/Espresso.jpg" },
-      { name: "Americano", price: "$4.00", desc: "Espresso over hot water", image: "Images/Amerikano.jpg" },
-      { name: "Cappuccino", price: "$4.50", desc: "Equal parts espresso, steamed milk, foam", image: "Images/cappuccino.jpg" },
-      { name: "Latte", price: "$5.00", desc: "Espresso with steamed milk and a light layer of foam", image: "Images/Latte.jpg" },
-      { name: "Flat White", price: "$4.50", desc: "Espresso with microfoam", image: "Images/FlatWhite.jpg" },
+      { name: "Espresso", price: "₱150.00", desc: "Double shot of Your Coffee", image: "Images/Espresso.jpg" },
+      { name: "Americano", price: "₱120.00", desc: "Espresso over hot water", image: "Images/Amerikano.jpg" },
+      { name: "Cappuccino", price: "₱150.000", desc: "Equal parts espresso, steamed milk, foam", image: "Images/Cappuccino.jpg" },
+      { name: "Latte", price: "₱150.00", desc: "Espresso with steamed milk and a light layer of foam", image: "Images/Latte.jpg" },
+      { name: "Flat White", price: "₱130.00", desc: "Espresso with microfoam", image: "Images/FlatWhite.jpg" },
     ],
     "Iced Coffee": [
-      { name: "Iced Caramel Latte", price: "$5.50", desc: "Espresso, cold milk, over ice", image: "Images/IcedCaramelLatte.jpg" },
-      { name: "Iced Americano", price: "$4.50", desc: "Espresso, cold water, over ice", image: "Images/IcedAmerikano.jpg" },
-      { name: "Cold Brew", price: "$5.00", desc: "Slow-steeped for 18 hours", image: "Images/ColdBrew.jpg" },
-      { name: "Your Signature", price: "$6.00", desc: "Cold brew with sweet vanilla cream", image: "Images/YourSignature.jpg" },
+      { name: "Iced Caramel Latte", price: "₱175.00", desc: "Espresso, cold milk, over ice", image: "Images/IcedCaramelLatte.jpg" },
+      { name: "Iced Americano", price: "₱130.00", desc: "Espresso, cold water, over ice", image: "Images/IcedAmerikano.jpg" },
+      { name: "Cold Brew", price: "₱150.00", desc: "Slow-steeped for 18 hours", image: "Images/ColdBrew.jpg" },
+      { name: "Your Signature", price: "₱150.00", desc: "Cold brew with sweet vanilla cream", image: "Images/YourSignature.jpg" },
     ],
     "Frappe": [
-      { name: "Caramel Frappe", price: "$6.00", desc: "Blended espresso, caramel, milk, whipped cream", image: "Images/CaramelFrappe.jpg" },
-      { name: "Mocha Frappe", price: "$6.00", desc: "Blended espresso, dark chocolate, milk", image: "Images/MochaFrappe.jpg" },
-      { name: "Matcha Frappe", price: "$6.50", desc: "Premium grade matcha, blended", image: "Images/MatchaFrappe.jpg" },
-      { name: "Vanilla Bean", price: "$5.50", desc: "Caffeine-free vanilla blend", image: "Images/VanillaBean.jpg" },
+      { name: "Caramel Frappe", price: "₱175.00", desc: "Blended espresso, caramel, milk, whipped cream", image: "Images/CaramelFrappe.jpg" },
+      { name: "Mocha Frappe", price: "₱175.00", desc: "Blended espresso, dark chocolate, milk", image: "Images/MochaFrappe.jpg" },
+      { name: "Matcha Frappe", price: "₱175.00", desc: "Premium grade matcha, blended", image: "Images/MatchaFrappe.jpg" },
+      { name: "Vanilla Bean", price: "₱175.00", desc: "Caffeine-free vanilla blend", image: "Images/VanillaBean.jpg" },
     ],
     "Non Coffee": [
-      { name: "Hot Chocolate", price: "$4.50", desc: "Rich dark chocolate with steamed milk", image: "Images/HotChocolate.jpg" },
-      { name: "Chai Tea Latte", price: "$5.00", desc: "Spiced black tea blended with steamed milk", image: "Images/ChaiTeaLatte.jpg" },
-      { name: "Matcha Latte", price: "$5.50", desc: "Pure matcha, lightly sweetened", image: "Images/MatchaLatte.jpg" },
-      { name: "Earl Grey", price: "$4.00", desc: "Loose leaf black tea with bergamot", image: "Images/EarlGrey.jpg" },
+      { name: "Hot Chocolate", price: "₱130.00", desc: "Rich dark chocolate with steamed milk", image: "Images/HotChocolate.jpg" },
+      { name: "Chai Tea Latte", price: "₱130.00", desc: "Spiced black tea blended with steamed milk", image: "Images/ChaiTeaLatte.jpg" },
+      { name: "Matcha Latte", price: "₱130.00", desc: "Pure matcha, lightly sweetened", image: "Images/MatchaLatte.jpg" },
+      { name: "Earl Grey", price: "₱130.00", desc: "Loose leaf black tea with bergamot", image: "Images/EarlGrey.jpg" },
     ]
   },
   meals: {
     "Meals": [
-      { name: "Butter Croissant", price: "$4.00", desc: "Flaky, buttery, baked fresh daily", image: "Images/ButterCroissant.jpg" },
-      { name: "Pain au Chocolat", price: "$4.50", desc: "Croissant dough wrapped around dark chocolate", image: "Images/PainAuhocolat.jpg" },
-      { name: "Almond Croissant", price: "$5.00", desc: "Twice-baked with almond frangipane", image: "Images/AlmondCroissant.jpg" },
-      { name: "Blueberry Muffin", price: "$4.00", desc: "Loaded with wild blueberries", image: "Images/BlueBerryMuffin.jpg" },
+      { name: "Butter Croissant", price: "₱150.00", desc: "Flaky, buttery, baked fresh daily", image: "Images/ButterCroissant.jpg" },
+      { name: "Pain au Chocolat", price: "₱150.00", desc: "Croissant dough wrapped around dark chocolate", image: "Images/PainAuhocolat.jpg" },
+      { name: "Almond Croissant", price: "₱170.00", desc: "Twice-baked with almond frangipane", image: "Images/AlmondCroissant.jpg" },
+      { name: "Blueberry Muffin", price: "₱150.00", desc: "Loaded with wild blueberries", image: "Images/BlueBerryMuffin.jpg" },
     ]
   }
 };
